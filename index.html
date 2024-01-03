@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Competição</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>Partidas jogadas</th>
+      <th>Vitórias</th>
+      <th>Derrotas</th>
+      <th>Pontuação Final</th>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>Fernando</td>
+      <td id="partidasFernando">0</td>
+      <td id="vitoriasFernando">0</td>
+      <td id="derrotasFernando">0</td>
+      <td id="pontuacaoFernando">0</td>
+      <td><button onclick="adicionarVitoria('Fernando')">+</button></td>
+      <td><button onclick="adicionarDerrota('Fernando')">-</button></td>
+    </tr>
+    <tr>
+      <td>Gilmar</td>
+      <td id="partidasGilmar">0</td>
+      <td id="vitoriasGilmar">0</td>
+      <td id="derrotasGilmar">0</td>
+      <td id="pontuacaoGilmar">0</td>
+      <td><button onclick="adicionarVitoria('Gilmar')">+</button></td>
+      <td><button onclick="adicionarDerrota('Gilmar')">-</button></td>
+    </tr>
+    <tr>
+      <td>Guilherme</td>
+      <td id="partidasGuilherme">0</td>
+      <td id="vitoriasGuilherme">0</td>
+      <td id="derrotasGuilherme">0</td>
+      <td id="pontuacaoGuilherme">0</td>
+      <td><button onclick="adicionarVitoria('Guilherme')">+</button></td>
+      <td><button onclick="adicionarDerrota('Guilherme')">-</button></td>
+    </tr>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
